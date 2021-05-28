@@ -57,62 +57,62 @@ There are certain questions arose during the planning of the proposed algorithms
 
 ## Answer of Academic Questions
 
-* What sort of problem is this project going to solve?
+* What sort of problem is this project going to solve?<br>
 Answer: Today’s era is the era of technology. So, as the increase in technology, the number of fraudulent transactions is rapidly increasing. The proposed research is based on detecting fraud cards and genuine card using different machine learning and deep learning techniques. During training and pre-processing, the machine learning and neural network is used to find user behavior and predict fraud card from data points.
 
-* How actually fraud is detected?
+* How actually fraud is detected?<br>
 Answer: AI removes the time-consuming tasks and allows full data preprocessing within milliseconds and identifies complicated patterns in the most effective way to detect fraud credit card.
 
-* What are the challenges involved in developing an algorithm to detect the fraud card?
+* What are the challenges involved in developing an algorithm to detect the fraud card?<br>
 Answer: While doing research, the problem occurs where legal transactions appear just like illegitimate transactions, owing to certain circumstances. Illegitimate transactions could appear as legal transactions in another way. Most of the features have categorical data when analyzing the credit card data. So, handling categorical data is the most difficult part which means most of machine learning is not suitable to handle categorical data. The most difficult problem is to feature selection and choice of an algorithm that can detect fraud credit cards where an algorithm cannot detect the new type of data as fraud or normal transaction.
 
-* Are there any similar projects?
+* Are there any similar projects?<br>
 Answer: Yes, there are many similar researches regarding detecting fraud credit card. According to (Jain, et al., 2019), algorithms like SVM, ANN, KNN, Bayesian Network, Decision tree, and Logistic Regression are used to detect fraud credit cards. According to (Kumar, et al., 2019), algorithms like KNN, Random Forest, and Proposed Algorithm are used to identify the complex fraudulent pattern of credit cards. Similarly, NetVerify is a web application to prevent and detect fraud credit card which use machine learning, computer vision, and biometric facial recognition to see recognized patterns of human reviews.
 
-* Is the proposed research feasible to handle an imbalanced dataset?
+* Is the proposed research feasible to handle an imbalanced dataset?<br>
 Answer: Yes, the proposed research is feasible to handle imbalanced datasets because a technique algorithm known as SMOTE helps to produce minority synthetic samples and used to train the classifier.
 
 ## Following are the conclusion what I have got from the research
 
-* How do you handle an imbalanced dataset?
+* How do you handle an imbalanced dataset?<br>
 Answer: The obvious difficulty of addressing the class imbalanced is that one of the classes lacks records. Most machine learning algorithms with imbalanced datasets do not work very well. So, we prefer you to use SMOTE oversampling technique to handle an imbalanced dataset which helps to align the dataset by increasing the unusual sample size.
 
-* How do you classify the feature and target class of the dataset?
+* How do you classify the feature and target class of the dataset?<br>
 Answer: The dataset for your research is known as supervised data where the target class variable is dependent to feature class variables and feature class variable is independent variables. So, class 1 which is regarded as fraud class, and class 0 is regarded as normal transactions is the target variable and, the rest of the other are your feature class variables.
 
-* On What basis you remove the null values from the dataset?
+* On What basis you remove the null values from the dataset?<br>
 Answer: One important step in data wrangling is the removal of null values from the dataset because it adversely affects any machine learning algorithm’s performance and accuracy. So, before implementing any machine learning algorithms to the dataset, it is really important to delete null values form the dataset.
 
-* On what basis is the visualization allocated?
+* On what basis is the visualization allocated?<br>
 Answer: Data visualization involved graph or map to facilitate the identification of trends, patterns, and outliers of broad datasets and it is important to promote the interpretation and analysis of human brain data. In your research visualization is allocated to find the distribution of fraud class and normal class, the relation of time with fraud and normal class, data after handling imbalanced dataset, the graph of features from v1 to v28.
 
-* What is the curse of dimensionality and what are some ways to deal with it?
+* What is the curse of dimensionality and what are some ways to deal with it?<br>
 Answer: The curse of dimensionality applies to the anomalies that arise while classifying, storing, and evaluating high-dimensional data not found in low dimensional spaces, especially the problem of data “closeness” and data “sparsity”. Dimensionality reduction is used to solve the curse of dimensionality by reducing the feature space.
 
-* The dataset obtained from Kaggle contains only numerical input variables which are the result of PCA transformation. So, why is PCA needed in Machine Learning?
-Answer: PCA is an unsupervised and non-parametric mathematical method used in machine learning for predictive models and used mainly to reduce the dimensionality of a dataset with several variables compared with each other through maximizing accumulation with variations present in the dataset. Some of the applications of PCA in machine learning are listed below
-** In lower-dimensional space, we can visualize the large complex data.
-** We can use it as a technique for selecting features.
-** For supervised learning issues, we will use the key components as data.
+* The dataset obtained from Kaggle contains only numerical input variables which are the result of PCA transformation. So, why is PCA needed in Machine Learning?<br>
+Answer: PCA is an unsupervised and non-parametric mathematical method used in machine learning for predictive models and used mainly to reduce the dimensionality of a dataset with several variables compared with each other through maximizing accumulation with variations present in the dataset. Some of the applications of PCA in machine learning are listed below <br>
+  - In lower-dimensional space, we can visualize the large complex data.
+  - We can use it as a technique for selecting features.
+  - For supervised learning issues, we will use the key components as data.
 
-* What are the types of data mining techniques that can detect the actual card and fraudulent card?
+* What are the types of data mining techniques that can detect the actual card and fraudulent card? <br>
 Answer: Logistic Regression, Bayesian Network, Hidden Markov Model, Decision Tree, Random Forest classifier are the types of data mining techniques that can detect the actual card and fraudulent card.
 
-* How does one choose which algorithm is best suitable for the dataset at hand?
+* How does one choose which algorithm is best suitable for the dataset at hand?<br>
 Answer: To choose algorithm we are looking for precision and recall, specificity and sensitivity which are the accuracy measurement metrics of algorithm. Also, the ROC curve, TPR, and FPR can be used for algorithm selection.
 
-* How to apply machine learning in fraud detection?
+* How to apply machine learning in fraud detection?<br>
 Answer: To identify the fraud transactions, data collection in the machine learning model is the initial step and analyzes all the collected data, segments it, and extracts the features it requires. And the model finds the complex pattern of the training dataset which is consider as a fraud card.
 
-* What are the factors I must consider before comparing the performance of two-meta algorithms applied to a problem?
+* What are the factors I must consider before comparing the performance of two-meta algorithms applied to a problem?<br>
 Answer: The speed of the convergence and convergence rate with the detection rate is one of the factors.
 
-* Why do we need a validation set and a test set?
+* Why do we need a validation set and a test set?<br>
 Answer: In fact, the validation set is used to build a model and neural network which is considered as an integral part of the training set. Similarly, the training set is used for evaluating the performance of the model and neural network.
 
-* On what basis is k-Fold cross-validation allocated?
+* On what basis is k-Fold cross-validation allocated?<br>
 Answer: Cross-validation is a resampling process that is used on a small dataset to validate machine learning models. In another word, to use a limited sample to predict how the model is going to act normally and to draw conclusions regarding data not used during model testing.
 
-* What are some factors that explain the success and recent rise of machine learning and deep learning?
+* What are some factors that explain the success and recent rise of machine learning and deep learning?<br>
 Answer: A large number of data accessible and strong processing capacity allows big business tospend massive capital in this technology. Rather than seeing this as the advent of emerging technologies, it is the product of significant corporate participation. Ultimately generate further jobs because of broad business participation and massive expenditure in science means that more individuals are drawn into it.
 
