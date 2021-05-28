@@ -1,4 +1,6 @@
 # Credit-Card-Fraud-Detection
+![credit_cardproject](https://user-images.githubusercontent.com/40186859/119980630-44a05280-bfdc-11eb-9413-0d27f7f55fb3.png)
+
 
 ## Introduction
 
